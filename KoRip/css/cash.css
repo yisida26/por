@@ -1,0 +1,52 @@
+@charset "utf-8";
+html {
+	height: 120%;
+}
+body {
+	background: linear-gradient(#ffe063, #fae388, #ffeca0);
+	height: 100%;
+}
+#wrap {
+	width: 1200px;
+	height: 100%;
+	margin: 0 auto;
+	border: 1px solid red;
+}
+header {
+}
+header > h1 {
+	font-size: 100px;
+	text-align: center;
+}
+
+section > p {
+	border-bottom: 1px solid red;
+	border-bottom-width: -10px;
+
+	height: 150px;
+	line-height: 150px;
+	font-size: 70px;
+	font-weight: 800;
+}
+section > p > a > samp {
+	font-size: 40px;
+}
+section > p > a {
+	display: block;
+	height: 150px;
+}
+section > p:hover > a {
+	background-color: silver;
+}
+footer {
+	/* border: 1px solid red; */
+}
+footer > div > h2 {
+	text-align: center;
+	font-size: 50px;
+}
+footer > div > p {
+	margin-top: 30px;
+	font-weight: 800;
+	font-size: 30px;
+}

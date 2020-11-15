@@ -1,0 +1,102 @@
+@charset "utf-8";
+
+body {
+	background: linear-gradient(
+		#f6d2d2,
+		#fff2d9,
+		#fcffd4,
+		#eafbde,
+		#e2fff1,
+		#e1f6f3,
+		#e1f7fc,
+		#e1eff9
+	);
+}
+#wrap {
+	width: 500px;
+	margin: 0 auto;
+	/* border: 1px solid red; */
+}
+header {
+	display: flex;
+	position: relative;
+	text-indent: -9999px;
+}
+header > .cash {
+	z-index: 1000;
+	position: absolute;
+	left: 50%;
+	top: 20px;
+	margin-left: 130px;
+	background-image: url(../images/cash.png);
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+	width: 50px;
+	height: 50px;
+}
+header > .cash_1 {
+	position: absolute;
+	left: 50%;
+	top: 20px;
+	margin-left: -170px;
+	z-index: 1000;
+	background-image: url(../images/cash_1.png);
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+	width: 50px;
+	height: 50px;
+}
+header > p > a {
+	display: block;
+	width: 50px;
+	height: 50px;
+}
+section {
+	display: flex;
+	position: relative;
+}
+section > .card {
+	position: relative;
+	left: 50%;
+	top: -5px;
+	margin-left: -220px;
+	background-image: url(../images/카드.png);
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+	width: 450px;
+	height: 968px;
+	text-indent: -9999px;
+}
+section > .money {
+	position: absolute;
+	left: 50%;
+	top: 300px;
+	margin-left: -165px;
+	z-index: 1000;
+	color: gray;
+	font-size: 100px;
+	font-weight: 800;
+	margin-top: 100px;
+	-webkit-transform: rotate(90deg);
+}
+footer > p {
+	position: absolute;
+	left: 50%;
+	bottom: 15px;
+	margin-left: -50px;
+	background-image: url(../images/원위치.png);
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+	width: 100px;
+	height: 100px;
+	text-indent: -9999px;
+}
+footer > p > a {
+	display: block;
+	width: 100px;
+	height: 100px;
+}
